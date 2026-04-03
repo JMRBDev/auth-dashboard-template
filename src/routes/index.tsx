@@ -5,15 +5,15 @@ import { handleSignIn, handleSignOut } from "@/lib/auth"
 
 export const Route = createFileRoute("/")({
   validateSearch: (search: Record<string, unknown>) => ({
-    redirect:
-      typeof search.redirect === "string" ? search.redirect : undefined,
+    redirect: typeof search.redirect === "string" ? search.redirect : undefined,
   }),
   head: () => ({
     meta: [
       { title: "Home | App Template" },
       {
         name: "description",
-        content: "Minimal template with authentication and a protected dashboard shell.",
+        content:
+          "Minimal template with authentication and a protected dashboard shell.",
       },
     ],
   }),

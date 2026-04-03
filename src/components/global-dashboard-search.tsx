@@ -1,10 +1,6 @@
 import { useMemo, useState } from "react"
 import { useNavigate } from "@tanstack/react-router"
-import {
-  LayoutDashboardIcon,
-  SearchIcon,
-  SettingsIcon,
-} from "lucide-react"
+import { LayoutDashboardIcon, SearchIcon, SettingsIcon } from "lucide-react"
 import type { LucideIcon } from "lucide-react"
 import { useMountEffect } from "@/hooks/use-mount-effect"
 import { Button } from "@/components/ui/button"
@@ -76,7 +72,9 @@ export function GlobalDashboardSearch() {
           title: "Settings",
           value: "settings dashboard",
         },
-      ].filter((item) => !normalizedQuery || contains(item.value, normalizedQuery)),
+      ].filter(
+        (item) => !normalizedQuery || contains(item.value, normalizedQuery)
+      ),
     [navigate, normalizedQuery]
   )
 
