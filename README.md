@@ -28,13 +28,11 @@ That gives each new app:
 
 ### Option 2: Bun CLI From GitHub
 
-If this repository is hosted on GitHub, you can scaffold from it with Bun:
+You can scaffold from it with Bun:
 
 ```bash
-bun create your-org/your-template-repo my-new-app
+bun create JMRBDev/auth-dashboard-template my-new-app
 ```
-
-Use this when you want terminal-first setup without building a separate `create-*` package.
 
 ## Post-Create Checklist
 
