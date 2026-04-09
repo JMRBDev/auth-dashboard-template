@@ -85,6 +85,6 @@ Do not edit generated files by hand.
 
 ## License
 
-This work is distributed under the [GNU General Public License 3.0 (GPL)][license] License.
+This work is distributed under the [GNU General Public License 3.0 (GPL)](license) License.
 
-See [license][license] for more information.
+See [license](license) for more information.
